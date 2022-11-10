@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Shift;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class ShiftController extends Controller
@@ -39,6 +40,7 @@ class ShiftController extends Controller
         $shift->time = $request->time;
         $shift->movie_name = $request->name;
         $shift->active = (isset($request->isActive) && $request->isActive == true) ? 1 : 0;
+        $shift->created_at = Carbon::now();
         $shift->save();
 
         return redirect()->route('admin.shifts.index');
