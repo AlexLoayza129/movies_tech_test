@@ -1,6 +1,6 @@
 ## App Santa Rosa - Movies
 
-Esta prueba fue desarrollada el 09/11/2022 para constatar los conocimiento de "Alex Loayza"
+Esta prueba fue desarrollada el 09/11/2022 para constatar los conocimientos de "Alex Loayza"
 el postulante
 
 Esta aplicación fue hecha con Laravel v9, Vue 3, TailWindCSS, Jquery, entre otras librerias/dependencias.
@@ -8,6 +8,20 @@ Esta aplicación fue hecha con Laravel v9, Vue 3, TailWindCSS, Jquery, entre otr
 * Módulos
     - Peliculas (CRUD)
         - Turnos (CRUD)
+
+Cualquier consulta al api es:
+    ``` 
+        Traer todas las peliculas
+        - http://localhost:8000/api/movies
+        Traer solo una pelicula
+        - http://localhost:8000/api/movies/1
+     ```
+     ``` 
+        Traer todas los turnos
+        - http://localhost:8000/api/movies
+        Traer solo un turno
+        - http://localhost:8000/api/movies/1
+    ``` 
 
 Pasos a seguir para ejecutar el proyecto:
 
@@ -60,9 +74,11 @@ email: admin@admin.com
 password: admin
 ```
 
-
-
 10.- Corremos en nuestro localhost
 ```
 php artisan serve
+```
+11.- Colocamos nuestro servidor local en el navegador
+```
+localhost:8000
 ```
