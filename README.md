@@ -54,15 +54,15 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5.- Generamos nuestra APP_KEY
-```
-php artisan key:generate
-```
-
-6.- Instalamos todas las dependencias
+5.- Instalamos todas las dependencias
 ```
 composer install
 npm install && npm run dev
+```
+
+6.- Generamos nuestra APP_KEY
+```
+php artisan key:generate
 ```
 
 <strong>7.- Ejecutamos nuestra consulta app.sql para crear las tablas</strong>.
