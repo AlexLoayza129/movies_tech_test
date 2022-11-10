@@ -24,11 +24,11 @@ Traer solo una pelicula
 ```
 ``` 
 Traer todas los turnos
-- http://localhost:8000/api/movies
+- http://localhost:8000/api/shifts
 ```
 ```
 Traer solo un turno
-- http://localhost:8000/api/movies/1
+- http://localhost:8000/api/shifts/1
 ``` 
 
 ## Pasos a seguir para ejecutar el proyecto:
