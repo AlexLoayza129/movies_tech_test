@@ -79,7 +79,7 @@ php artisan db:seed
  - Con esto generaremos un usuario admin
 ```
 email: admin@admin.com
-password: 123456789
+password: admin
 ```
 
 10.- Corremos en nuestro localhost
