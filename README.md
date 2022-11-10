@@ -10,18 +10,22 @@ Esta aplicación fue hecha con Laravel v9, Vue 3, TailWindCSS, Jquery, entre otr
         - Turnos (CRUD)
 
 Cualquier consulta al api es:
-    ``` 
+     ``` 
         Traer todas las peliculas
-        - http://localhost:8000/api/movies <br>
+        - http://localhost:8000/api/movies
+     ```
+     ```
         Traer solo una pelicula
         - http://localhost:8000/api/movies/1
-     ```<br>
+     ```
      ``` 
         Traer todas los turnos
-        - http://localhost:8000/api/movies<br>
+        - http://localhost:8000/api/movies
+     ```
+     ```
         Traer solo un turno
         - http://localhost:8000/api/movies/1
-    ``` 
+     ``` 
 
 Pasos a seguir para ejecutar el proyecto:
 
