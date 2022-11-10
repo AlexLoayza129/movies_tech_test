@@ -9,7 +9,11 @@ Esta aplicación fue hecha con Laravel v9, Vue 3, TailWindCSS, Jquery, entre otr
     - Peliculas (CRUD)
         - Turnos (CRUD)
 
-### Cualquier consulta al api es:
+``` 
+Nota: El archivo prueba_tecnica_docs.zip es un comprimido de las imagenes y como se ha ido desarrollando este proyecto
+``` 
+
+## Cualquier consulta al api es:
 ``` 
 Traer todas las peliculas
 - http://localhost:8000/api/movies
@@ -27,7 +31,7 @@ Traer solo un turno
 - http://localhost:8000/api/movies/1
 ``` 
 
-Pasos a seguir para ejecutar el proyecto:
+## Pasos a seguir para ejecutar el proyecto:
 
 1.- Clonar el proyecto en su PC
 ``` 
